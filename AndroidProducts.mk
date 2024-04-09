@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_spes.mk
+    $(LOCAL_DIR)/everest_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_spes-user \
-    cherish_spes-userdebug \
-    cherish_spes-eng
+    everest_spes-user \
+    everest_spes-userdebug \
+    everest_spes-eng

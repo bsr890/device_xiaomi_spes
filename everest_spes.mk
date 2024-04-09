@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
 # Product Specifics
-PRODUCT_NAME := cherish_spes
+PRODUCT_NAME := everest_spes
 PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
@@ -23,10 +23,11 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#Cherish
-CHERISH_BUILD_TYPE := COMMUNITY
-CHERISH_MAINTAINER := Cstmizd890
-WITH_GMS := true
+#Everest
+EVEREST_BUILD_TYPE := COMMUNITY
+EVEREST_MAINTAINER := Cstmizd890
+TARGET_BUILD_INNERTUNE := true
+WITH_GAPPS := true
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 1080
